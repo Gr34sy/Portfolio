@@ -23,7 +23,7 @@ export function Navbar(){
                     </li>
                     
                     <li>
-                        <a className='text-decoration-none p-2' href="#projects">Projects</a>
+                        <a className='text-decoration-none p-2' href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
