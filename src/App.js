@@ -5,7 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
-import { SectionSkills } from './components/SectionSkills';
+import { Projects } from './components/Projects';
+import { SectionSkills } from './components/Skills';
+import { Contact } from './components/Contact';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
     <Navbar/>
     <Hero/>
     <SectionSkills/>
+    <Projects/>
+    <Contact/>
     </>
   );
 }
