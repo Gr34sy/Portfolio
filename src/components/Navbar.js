@@ -26,10 +26,25 @@ export function Navbar(){
                         <a className='text-decoration-none p-2' href="#projects">Projects</a>
                     </li>
                 </ul>
-
-                {/* <ul className="navlist--mobile"></ul> */}
-
             </div>
+
+            <ul className="m-0 p-4 text-center navlist navlist--mobile">
+                <li>
+                    <a className='text-decoration-none p-2' href="#home">Home</a>
+                </li>
+                    
+                <li>
+                    <a className='text-decoration-none p-2' href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a className='text-decoration-none p-2' href="#projects">Projects</a>
+                </li>
+                    
+                <li>
+                    <a className='text-decoration-none p-2' href="#contact">Contact</a>
+                </li>
+            </ul>
         </nav>
     )
 }

@@ -1,0 +1,25 @@
+
+.section-skills{
+    width: 100%;
+    background-color: $dark-grey;
+    color: $white;
+    font-family: $font-family;
+}
+
+.skillboxes{
+    margin: 0 auto;
+    width: 100%;
+
+    @media (min-width: 900px) {
+        width: 65%;
+    }
+}
+
+.skillbox{
+    padding: 15px;
+}
+
+.skill__description{
+    margin-left: 10px;
+    margin-bottom: 0px;
+}

@@ -1,10 +1,5 @@
-
-*{
-    box-sizing: border-box;
-}
-
 .nav{
-    height: 10vh;
+    min-height: 10vh;
     background-color: $purple;
     width: 100%;
     position: relative;
@@ -28,9 +23,6 @@ nav::before{
     height: inherit;
     position: relative;
 
-    @media (min-width: 750px) {
-        display: flex;  
-    }
 }
 
 .navlist{ 
@@ -54,42 +46,23 @@ nav::before{
 
 .navlist--mobile{
     display: block;
+    width: 100%;
+    position: relative;
 
     @media (min-width: 750px) {
         display: none;  
     }
 }
 
-
-//hero
-.hero{
-    height: 90vh;;
-    background-color: $white;
-}
-
-
-//skills
-.section-skills{
-    width: 100%;
-    background-color: $dark-grey;
-    color: $white;
-    font-family: $font-family;
-}
-
-.skillboxes{
-    margin: 0 auto;
-    width: 100%;
-
-    @media (min-width: 900px) {
-        width: 65%;
-    }
-}
-
-.skillbox{
-    padding: 15px;
-}
-
-.skill__description{
-    margin-left: 10px;
-    margin-bottom: 0px;
+.navlist--mobile::before{
+    content: '';
+    display: block;
+    position: absolute;
+	bottom: -15%;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	transform: translate(-50%) rotate(45deg);
+	background-color: $purple;
+    z-index: -1;
 }
