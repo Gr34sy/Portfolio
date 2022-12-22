@@ -4,7 +4,7 @@ import { SkillBox } from "./SkillBox";
 
 export function SectionSkills(){
     return(
-        <section className="section-skills">
+        <section className="section-skills" id="skills">
             <div className="d-flex flex-wrap justify-content-center px-5 text-center skillboxes">
                 <SkillBox src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" skill="Bootstrap" />
                 <SkillBox src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" skill="React" />
