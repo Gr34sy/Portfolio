@@ -6,4 +6,5 @@ $pink: #fc81fc;
 $white: #FFFFFF;
 $black: #000000;
 
-$text-gradient-base: 45deg, #acabaa, #fc81fc;
+$text-gradient-base: 45deg, $light-grey, $pink;
+$section-gradient: 65deg, $dark-grey 0% , $purple 50%,  $pink 100%,;
