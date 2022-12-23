@@ -24,13 +24,4 @@
 .skill__description{
     margin-left: 10px;
     margin-bottom: 0px;
-
-    &:hover{
-        background-image: linear-gradient($text-gradient-base);
-        background-size: 100%;
-        background-repeat: repeat;
-        background-clip: text;
-        -webkit-text-fill-color: transparent; 
-        -moz-text-fill-color: transparent;
-    }
 }

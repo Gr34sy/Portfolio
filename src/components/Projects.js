@@ -3,33 +3,37 @@ import { ProjectCard } from './ProjectCard';
 
 export function Projects(){
     return(
-        <section className='d-flex flex-wrap align-items-start justify-content-between p-5 projects' id="projects">
+        <section className='d-flex flex-wrap align-items-start justify-content-center p-5 projects' id="projects">
             <ProjectCard 
             description="Some quick example text to build on the card title and make up the
             bulk of the card's content." 
             site={null}
-            link={null}
+            href={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
+            repo={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
             />
 
             <ProjectCard 
             description="Some quick example text to build on the card title and make up the
             bulk of the card's content." 
             site={null}
-            link={null}
+            href={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
+            repo={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
             />
 
             <ProjectCard 
             description="Some quick example text to build on the card title and make up the
             bulk of the card's content." 
             site={null}
-            link={null}
+            href={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
+            repo={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
             />
 
             <ProjectCard 
             description="Some quick example text to build on the card title and make up the
             bulk of the card's content." 
             site={null}
-            link={null}
+            href={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
+            repo={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
             />
 
         </section>

@@ -7,11 +7,11 @@ export function Navbar(){
 
                 <ul className='p-0 m-0 align-items-center justify-content-end text-align-center navlist flex-wrap'>
                     <li>
-                        <a className='text-decoration-none p-2' href="#home">Home</a>
+                        <a className='text-decoration-none p-2 text-hover-gradient' href="#home">Home</a>
                     </li>
                     
                     <li>
-                        <a className='text-decoration-none p-2' href="#skills">Skills</a>
+                        <a className='text-decoration-none p-2 text-hover-gradient' href="#skills">Skills</a>
                     </li>
                 </ul>
                 
@@ -19,11 +19,11 @@ export function Navbar(){
                 
                 <ul className='p-0 m-0 align-items-center justify-content-start text-align-center navlist flex-wrap'>
                     <li>
-                        <a className='text-decoration-none p-2' href="#projects">Projects</a>
+                        <a className='text-decoration-none p-2 text-hover-gradient' href="#projects">Projects</a>
                     </li>
                     
                     <li>
-                        <a className='text-decoration-none p-2' href="#contact">Contact</a>
+                        <a className='text-decoration-none p-2 text-hover-gradient' href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
