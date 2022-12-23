@@ -3,17 +3,25 @@ import { Card } from 'react-bootstrap';
 
 import placeholder from '../assets/placeholder.jpg';
 
-export function ProjectCard({description, site, href, repo}){
+export function ProjectCard({description, project, href, repo, stack}){
     
    return(
     <Card style={{width: '450px', margin: '20px', border: 'none', boxShadow: `0 0 20px #3b2668`}}>
         <Card.Img src={placeholder}/>
 
         <Card.Body>
-            <Card.Title>
+            <Card.Title style={{letterSpacing: '3px'}}>
                 Card Title
             </Card.Title>
 
+
+            <div className='my-2 project__stack'>
+                Stack: {stack.map(
+                    (item, index) => {
+                        return (<span key={index} className=" mx-1 p-1">{item}</span>)
+                    }
+                )}
+            </div>
             <Card.Text>
             {description}
             </Card.Text>

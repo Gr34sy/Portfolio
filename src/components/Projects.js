@@ -7,33 +7,37 @@ export function Projects(){
             <ProjectCard 
             description="Some quick example text to build on the card title and make up the
             bulk of the card's content." 
-            site={null}
+            project={null}
             href={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
             repo={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
+            stack={['html','java script']}
             />
 
             <ProjectCard 
             description="Some quick example text to build on the card title and make up the
             bulk of the card's content." 
-            site={null}
+            project={null}
             href={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
             repo={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
+            stack={[]}
             />
 
             <ProjectCard 
             description="Some quick example text to build on the card title and make up the
             bulk of the card's content." 
-            site={null}
+            project={null}
             href={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
             repo={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
+            stack={[]}
             />
 
             <ProjectCard 
             description="Some quick example text to build on the card title and make up the
             bulk of the card's content." 
-            site={null}
+            project={null}
             href={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
             repo={"https://www.w3schools.com/bootstrap4/bootstrap_containers.asp"}
+            stack={[]}
             />
 
         </section>

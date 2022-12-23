@@ -1,3 +1,16 @@
 .projects{
     width: 100%;
 }
+
+.project__stack{
+    font-size: 1.2rem;
+    font-family: $font-family;
+    font-weight: 900;
+
+    span{
+        font-size: 0.8rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        border: 1px solid $light-grey;
+    }
+}
