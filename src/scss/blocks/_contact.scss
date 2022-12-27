@@ -1,11 +1,11 @@
 .contact{
     min-height: 30vh;
     background-image: linear-gradient($footer-gradient);
-    padding: 20px 50px;
 
     h2{
         color: $pink;
         opacity: 0.8;
+
     }
 
     a{
@@ -21,9 +21,5 @@
         &:hover{
             $color: $pink;
         }
-    }
-
-    @media(min-width: 750px){
-        padding: 10px 20px;
     }
 }

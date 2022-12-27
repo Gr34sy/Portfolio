@@ -16,7 +16,7 @@ export function Contact(){
         </figure>
 
         <footer className='contact' id="contact">
-            <h2 className='my-3 px-5'>Contact:</h2>
+            <h2 className='py-3 px-5 m-0'>Contact:</h2>
             <a className="d-block text-decoration-none py-2 px-5 text-hover-gradient" href="mailto:slupek3@poczta.fm">
                 <span><FontAwesomeIcon icon={faEnvelope} className="text-hover-gradient" /></span>
                 Email
@@ -37,7 +37,7 @@ export function Contact(){
                 Codewars
             </a>
 
-            <a className="d-block text-decoration-none py-2 px-5 text-hover-gradient" href="">
+            <a className="d-block text-decoration-none pt-2 pb-3 px-5 text-hover-gradient" href="">
                 <span><FontAwesomeIcon icon={faPaperclip} /></span>
                 CV
             </a>
