@@ -22,7 +22,7 @@ export function ProjectCard({description, project, href, repo, stack}){
                     }
                 )}
             </div>
-            <Card.Text>
+            <Card.Text style={{fontWeight: '100'}}>
             {description}
             </Card.Text>
 

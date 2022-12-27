@@ -4,7 +4,7 @@ import { SkillBox } from "./SkillBox";
 
 export function SectionSkills(){
     return(
-        <section className="py-2  py-sm-5 section-skills" id="skills">
+        <section className="py-3  py-sm-5 section-skills" id="skills">
             <h2 className="text-center w-100 m-0 mb-2">I have Experience With</h2>
             <div className="d-flex flex-wrap flex-column skillboxes px-3">
 

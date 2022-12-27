@@ -1,6 +1,11 @@
 .projects{
     width: 100%;
     padding: 15px 20px;
+
+    h2{
+        color: $purple;
+        opacity: 0.8;
+    }
 }
 
 .project__stack{

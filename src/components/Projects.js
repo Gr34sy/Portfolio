@@ -4,6 +4,7 @@ import { ProjectCard } from './ProjectCard';
 export function Projects(){
     return(
         <section className='d-flex flex-wrap align-items-start justify-content-center p-1 p-sm-5 projects' id="projects">
+            <h2 className='w-100 pt-5 text-center'>My projects</h2>
             <ProjectCard 
             description="Some quick example text to build on the card title and make up the
             bulk of the card's content." 
