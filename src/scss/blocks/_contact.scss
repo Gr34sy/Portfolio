@@ -22,4 +22,8 @@
             $color: $pink;
         }
     }
+
+    @media(min-width: 925px){
+        padding-left: 220px; 
+    }
 }
