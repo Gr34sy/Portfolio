@@ -3,3 +3,10 @@
     min-height: 90vh;
     background-color: $white;
 }
+
+.hero__box{
+    background-color: $white;
+    height: 700px;
+
+    box-shadow: 0px 0px 20px ($purple);
+}
