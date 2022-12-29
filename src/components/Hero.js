@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePic from '../assets/profilePic.jpg';
 
 export function Hero(){
     return(
@@ -6,8 +7,8 @@ export function Hero(){
 
             <div className="w-75 rounded border-none p-2 p-sm-5 m-0 mt-5 hero__box">
                 <h1 className='w-50 m-auto text-center'>About Me</h1>
-                <figure className='w-50 m-auto mb-2'>
-                    <img className="w-100" src="" alt="picture of developer"/>
+                <figure className='w-25 m-auto mb-2'>
+                    <img className="w-100 rounded" src={profilePic} alt="picture of developer"/>
                 </figure>
                 <p className='p-2 m-0'>
                     Hi, my name is Peter. I'm currently studying IT in Wrocław. Since high school I've been passionate about web development. I enjoy learning new techniques and acquiring programming skills. I also put big effort on self-improvement. Constructive criticism is important for me, because I can learn a lot from my mistakes.
