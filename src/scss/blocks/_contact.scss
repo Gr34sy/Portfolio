@@ -1,6 +1,11 @@
+$bg: '../../assets/bg.png';
+
 .contact{
     min-height: 30vh;
-    background-image: linear-gradient($footer-gradient);
+    background-image: url($bg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
 
     h2{
         color: $pink;
