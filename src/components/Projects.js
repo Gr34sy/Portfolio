@@ -11,7 +11,7 @@ export function Projects(){
             <h2 className='w-100 pt-5 text-center'>My projects</h2>
             <ProjectCard 
             img = {musicMania}
-            description="Page which connects with last.fm API. It enables to filter artists, add them to favorites and search for similar. Page itself takes a bit to load but give it time.
+            description="Page which connects with last.fm API. It enables filtering music artists, adding them to favorites and searching for the similar.Site takes a bit to load but give it time please.
 " 
             project='Music Mania'
             href={"https://mellifluous-faun-63ea4b.netlify.app"}
