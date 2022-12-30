@@ -1,17 +1,14 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-import placeholder from '../assets/placeholder.jpg';
-
-export function ProjectCard({description, project, href, repo, stack}){
+export function ProjectCard({img, description, project, href, repo, stack}){
     
    return(
-    <Card style={{width: '450px', margin: '20px', border: 'none', boxShadow: `0 0 20px #3b2668`}}>
-        <Card.Img src={placeholder}/>
-
+    <Card style={{width: '450px', height:'480px', margin: '20px', border: 'none', boxShadow: `0 0 20px #3b2668`}}>
+        <Card.Img src={img}/>
         <Card.Body>
             <Card.Title style={{letterSpacing: '3px'}}>
-                Card Title
+                {project}
             </Card.Title>
 
 
@@ -26,13 +23,13 @@ export function ProjectCard({description, project, href, repo, stack}){
             {description}
             </Card.Text>
 
-            <a href={href} className="custom-button" target="_blank">
+            {href && <a href={href} className="custom-button" target="_blank">
                 Preview
-            </a>
+            </a>}
 
-            <a href={repo} className="mx-3 custom-button" target="_blank">
+            {repo && <a href={repo} className={ repo && href ? "mx-3 custom-button" : "custom-button"} target="_blank">
                 Repo
-            </a>
+            </a>}
         </Card.Body>
     </Card>
    )
