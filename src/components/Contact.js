@@ -1,5 +1,5 @@
 import React from 'react';
-import separatorBottom from '../assets/separatorBottom.png';
+import separatorContact from '../assets/separatorContact.png';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
@@ -12,7 +12,7 @@ export function Contact(){
     return(
         <>
         <figure className='m-0 p-0'>
-            <img src={separatorBottom} alt="decoration" className='w-100'/>
+            <img src={separatorContact} alt="decoration" className='w-100'/>
         </figure>
 
         <footer className=' contact' id="contact">

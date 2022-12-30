@@ -1,11 +1,13 @@
+$bg: '../../assets/bg.png';
 
 .section-skills{
     width: 100%;
-    background-image: linear-gradient($section-gradient);
+    background-image: url($bg);
+    background-size: contain;
+    background-position: center;
     color: $white;
     font-family: $font-family;
 
-    box-shadow: 0px 0px 20px 0px($black);
 }
 
 .skillboxes{
