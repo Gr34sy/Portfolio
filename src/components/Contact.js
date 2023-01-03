@@ -7,6 +7,7 @@ import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faPaperclip} from '@fortawesome/free-solid-svg-icons';
 import {faCode} from '@fortawesome/free-solid-svg-icons';
+import CV from '../assets/CVPiotrS.pdf';
 
 export function Contact(){
     return(
@@ -37,7 +38,7 @@ export function Contact(){
                 Codewars
             </a>
 
-            <a className="d-block text-decoration-none pt-2 pb-3 px-5 text-hover-gradient" href="">
+            <a className="d-block text-decoration-none pt-2 pb-3 px-5 text-hover-gradient" href={CV} target="_blank">
                 <span><FontAwesomeIcon icon={faPaperclip} /></span>
                 CV
             </a>
