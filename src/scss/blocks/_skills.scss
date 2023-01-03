@@ -3,8 +3,8 @@ $bg: '../../assets/bg.png';
 .section-skills{
     width: 100%;
     background-image: url($bg);
-    background-size: contain;
     background-position: center;
+    background-size: cover;
     color: $white;
     font-family: $font-family;
 
