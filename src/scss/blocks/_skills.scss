@@ -3,11 +3,9 @@ $bg: '../../assets/bgSkills.png';
 .section-skills{
     width: 100%;
     background-image: url($bg);
-    background-position: center;
     background-size: cover;
     color: $white;
     font-family: $font-family;
-
 }
 
 .skillboxes{

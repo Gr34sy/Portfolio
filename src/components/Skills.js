@@ -1,16 +1,16 @@
 import React from "react";
 import { SkillBox } from "./SkillBox";
 
-// import separatorSkillsBottom from '../assets/separatorSkillsBottom.png';
-// import separatorSkillsTop from '../assets/separatorSkillsTop.png';
+import separatorSkillsBottom from '../assets/separatorSkillsBottom.png';
+import separatorSkillsTop from '../assets/separatorSkillsTop.png';
 
 
 export function SectionSkills(){
     return(
         <>
-        {/* <figure className='m-0 p-0'>
+        <figure className='m-0 p-0'>
             <img src={separatorSkillsTop} alt="decoration" className='w-100'/>
-        </figure> */}
+        </figure>
 
         <section className="py-3  py-sm-5 section-skills" id="skills">
             <h2 className="text-center w-100 m-0 mb-2">I have Experience With</h2>
@@ -84,9 +84,9 @@ export function SectionSkills(){
             </div>
         </section>
 
-        {/* <figure className='m-0 p-0'>
+        <figure className='m-0 p-0'>
             <img src={separatorSkillsBottom} alt="decoration" className='w-100'/>
-        </figure> */}
+        </figure>
         </>
     )
 }
