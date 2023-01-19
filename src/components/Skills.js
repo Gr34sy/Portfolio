@@ -16,12 +16,12 @@ export function SectionSkills(){
             <h2 className="text-center w-100 m-0 mb-2">I have Experience With</h2>
             <div className="d-flex flex-wrap flex-column skillboxes px-3">
 
-                <h3 className="text-left mt-2 mt-sm-5 skill__type">
+                {/* <h3 className="text-left mt-2 mt-sm-5 skill__type">
                     Currently Learning
                 </h3>
                 <div className="d-flex flex-wrap justify-content-start text-center w-100">
                     <SkillBox src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" skill="TypeScript" />
-                </div>
+                </div> */}
 
                 <h3 className="text-left mt-5 skill__type">
                     IDE
