@@ -8,6 +8,18 @@
     }
 }
 
+.project-card{
+    width: 450px ;
+    height: 480px !important;
+    margin: 20px; 
+    border: none; 
+    box-shadow: 0 0 20px #3b2668;
+
+    &:hover{
+        box-shadow: 0 0 20px 5px #3b2668;
+    }
+}
+
 .project__stack{
     font-size: 1.2rem;
     font-family: $font-family;

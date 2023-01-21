@@ -4,12 +4,12 @@ import { Card } from 'react-bootstrap';
 export function ProjectCard({img, description, project, href, repo, stack}){
     
    return(
-    <Card style={{width: '450px', height:'480px', margin: '20px', border: 'none', boxShadow: `0 0 20px #3b2668`}}>
+    <Card className="project-card">
         <Card.Img src={img}/>
-        <Card.Body>
+        <Card.Body style={{display: 'flex', flexDirection: 'column', justifyContent:'space-between'}}>
             <Card.Title style={{letterSpacing: '3px'}}>
                 {project}
-            </Card.Title>
+            </Card.Title> 
 
 
             <div className='my-2 project__stack'>
@@ -22,14 +22,15 @@ export function ProjectCard({img, description, project, href, repo, stack}){
             <Card.Text style={{fontWeight: '100'}}>
             {description}
             </Card.Text>
+            
+            
+            <div>
+                {href && <a href={href} className="custom-button" target="_blank">
+                Preview</a>} 
 
-            {href && <a href={href} className="custom-button" target="_blank">
-                Preview
-            </a>}
-
-            {repo && <a href={repo} className={ repo && href ? "mx-3 custom-button" : "custom-button"} target="_blank">
-                Repo
-            </a>}
+                {repo && <a href={repo} className={ repo && href ? "mx-3  custom-button" : "custom-button"} target="_blank">
+                Repo</a>}
+            </div>
         </Card.Body>
     </Card>
    )
