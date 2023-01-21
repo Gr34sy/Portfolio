@@ -40,6 +40,7 @@ export function SectionSkills(){
                     <SkillBox src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" skill="Bootstrap" />
                     <SkillBox src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" skill="React" />
                     <SkillBox src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-plain.svg" skill="Material-UI"/>
+                    <SkillBox src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" skill="Next"/>
                 </div>
 
                 <h3 className="text-left mt-5 skill__type">
