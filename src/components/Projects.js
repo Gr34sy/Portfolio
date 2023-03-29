@@ -10,7 +10,7 @@ export function Projects(){
             <ProjectCard 
             img = {bestShop}
             description="My first RWD project. I also used there vanilla JavaScript and SASS. Site contains simple calculator." 
-            project='Best Shop Landing Page'
+            project='Best Shop'
             href={"https://inspiring-sorbet-4f9b9d.netlify.app"}
             repo={"https://github.com/Gr34sy/BestShop-project"}
             stack={['HTML', 'sass', 'javascript']}
