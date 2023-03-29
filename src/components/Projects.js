@@ -46,6 +46,7 @@ export function Projects(){
             img = {GPT3}
             description="Simple responsive landing page  with modern design, built with React." 
             project='GPT3 Landing Page'
+            href={"https://verdant-taffy-1fdc0c.netlify.app"}
             repo={"https://github.com/Gr34sy/gpt3_jsm"}
             stack={['HTML', 'CSS', 'React']}
             />
@@ -54,7 +55,8 @@ export function Projects(){
             img = {countries}
             description="Web application created with Rest Countries API. You can search there info of all countries around the world! You can also turn on darkmode." 
             project='Rest Countries'
-            repo={"https://guileless-semifreddo-6d7e9b.netlify.app"}
+            href={"https://guileless-semifreddo-6d7e9b.netlify.app"}
+            repo={"https://github.com/Gr34sy/react-countries-api"}
             stack={['HTML', 'Sass', 'React', ,'javascript']}
             />
 
