@@ -1,10 +1,7 @@
 import React from 'react';
 import { ProjectCard } from './ProjectCard';
 
-import musicMania from '../assets/MusicMania.png';
-import oddam from '../assets/oddamwdobrerece.png';
-import spotifyClone from '../assets/SpotifyClone.png';
-import bestShop from '../assets/bestShop.png';
+import {musicMania, oddam, spotifyClone, bestShop, GPT3, countries } from './imageImports';
 
 export function Projects(){
     return(
@@ -43,6 +40,22 @@ export function Projects(){
             project='Spotify Clone'
             repo={"https://github.com/Gr34sy/SpotifyClone"}
             stack={['HTML', 'Bootstrap', 'React']}
+            />
+
+            <ProjectCard 
+            img = {GPT3}
+            description="Simple responsive landing page  with modern design, built with React." 
+            project='GPT3 Landing Page'
+            repo={"https://github.com/Gr34sy/gpt3_jsm"}
+            stack={['HTML', 'CSS', 'React']}
+            />
+
+            <ProjectCard 
+            img = {countries}
+            description="Web application created with Rest Countries API. You can search there info of all countries around the world! You can also turn on darkmode." 
+            project='Rest Countries'
+            repo={"https://guileless-semifreddo-6d7e9b.netlify.app"}
+            stack={['HTML', 'Sass', 'React', ,'javascript']}
             />
 
 
