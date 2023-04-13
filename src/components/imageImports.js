@@ -4,6 +4,7 @@ import spotifyClone from '../assets/SpotifyClone.png';
 import bestShop from '../assets/bestShop.png';
 import GPT3 from '../assets/GPT3.png';
 import countries from '../assets/countries.png';
+import Gericht from '../assets/Gericht.png';
 
 export {
     musicMania,
@@ -12,4 +13,5 @@ export {
     bestShop,
     GPT3,
     countries,
+    Gericht
 }

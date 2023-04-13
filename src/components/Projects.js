@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProjectCard } from './ProjectCard';
 
-import {musicMania, oddam, spotifyClone, bestShop, GPT3, countries } from './imageImports';
+import {musicMania, oddam, spotifyClone, bestShop, GPT3, countries, Gericht } from './imageImports';
 
 export function Projects(){
     return(
@@ -43,15 +43,6 @@ export function Projects(){
             />
 
             <ProjectCard 
-            img = {GPT3}
-            description="Simple responsive landing page  with modern design, built with React." 
-            project='GPT3 Landing Page'
-            href={"https://verdant-taffy-1fdc0c.netlify.app"}
-            repo={"https://github.com/Gr34sy/gpt3_jsm"}
-            stack={['HTML', 'CSS', 'React']}
-            />
-
-            <ProjectCard 
             img = {countries}
             description="Web application created with Rest Countries API. You can search there info of all countries around the world! You can also turn on darkmode." 
             project='Rest Countries'
@@ -60,6 +51,25 @@ export function Projects(){
             stack={['HTML', 'Sass', 'React', ,'javascript']}
             />
 
+
+            <ProjectCard 
+            img = {}
+            description="Responsive landing page for restaurant. Created using React." 
+            project={'Restaurant Landing Page'}
+            href={"https://melodic-scone-a9b319.netlify.app"}
+            repo={"https://github.com/Gr34sy/gericht-restaurant"}
+            stack={['HTML', 'CSS', 'React']}
+            />
+
+
+            <ProjectCard 
+            img = {GPT3}
+            description="Page is showing covid statistics either global or for single country. You can sort and filter country tiles." 
+            project='Covid Stats'
+            href={""}
+            repo={""}
+            stack={['HTML', 'CSS', 'React', 'JavScript']}
+            />
 
             {/* <ProjectCard 
             img = {}
