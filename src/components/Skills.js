@@ -50,13 +50,15 @@ export function SectionSkills(){
                 <div className="d-flex flex-wrap justify-content-start text-center w-100">
                     <SkillBox src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" skill="Firebase" />
                     <SkillBox src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" skill="PHP" />
+                    <SkillBox src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" skill="MongoDB" />
                 </div>
 
                 <h3 className="text-left mt-5 skill__type">
-                    Databases
+                    Other Languages
                 </h3>
                 <div className="d-flex flex-wrap justify-content-start text-center w-100">
                     <SkillBox src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" skill="mySQL" />
+                    <SkillBox src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" skill="Python" />
                 </div>
 
                 <h3 className="text-left mt-5 skill__type">
