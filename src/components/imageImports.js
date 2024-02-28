@@ -3,7 +3,6 @@ import oddam from '../assets/oddamwdobrerece.png';
 import bestShop from '../assets/bestShop.png';
 import countries from '../assets/countries.png';
 import ToDo from '../assets/ToDoApp.png';
-import Covid from '../assets/Covid.png';
 
 
 export {
@@ -11,6 +10,5 @@ export {
     oddam,
     bestShop,
     countries,
-    Covid,
     ToDo,
 }

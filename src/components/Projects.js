@@ -6,7 +6,6 @@ import {
   oddam,
   bestShop,
   countries,
-  Covid,
   ToDo,
 } from "./imageImports";
 
@@ -41,16 +40,7 @@ export function Projects() {
         project="Rest Countries"
         href={"https://guileless-semifreddo-6d7e9b.netlify.app"}
         repo={"https://github.com/Gr34sy/react-countries-api"}
-        stack={["HTML", "Sass", "React", , "javascript"]}
-      />
-
-      <ProjectCard
-        img={Covid}
-        description="Page is showing covid statistics either global or for single country. You can sort and filter country tiles."
-        project="Covid Stats"
-        href={"https://soft-tanuki-d1371e.netlify.app"}
-        repo={"https://github.com/Gr34sy/covid-stats-app"}
-        stack={["HTML", "CSS", "JavaScript", "React"]}
+        stack={["HTML", "Sass", "React", "javascript"]}
       />
 
       <ProjectCard
