@@ -3,6 +3,7 @@ import oddam from '../assets/oddamwdobrerece.png';
 import bestShop from '../assets/bestShop.png';
 import countries from '../assets/countries.png';
 import ToDo from '../assets/ToDoApp.png';
+import passwordGenerator from '../assets/passwordGenerator.png';
 
 
 export {
@@ -11,4 +12,5 @@ export {
     bestShop,
     countries,
     ToDo,
+    passwordGenerator,
 }

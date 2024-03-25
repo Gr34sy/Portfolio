@@ -7,6 +7,7 @@ import {
   bestShop,
   countries,
   ToDo,
+  passwordGenerator,
 } from "./imageImports";
 
 export function Projects() {
@@ -59,6 +60,17 @@ export function Projects() {
         href={"https://sparkly-licorice-0bee9d.netlify.app"}
         repo={"https://github.com/Gr34sy/oddamwdobrerece"}
         stack={["html", "sass", "javascript", "react", "firebase"]}
+      />
+
+      <ProjectCard
+        img={passwordGenerator}
+        description="Another FrontendMentor challenge. App with the functionalities to generate password. Users can set password length and which characters can be contained in the generated password."
+        project={"Pasword Generator"}
+        href={"https://grpasswordgenerator.netlify.app"}
+        repo={
+          "https://github.com/Gr34sy/frontendmentor-password-generator/tree/main"
+        }
+        stack={["React", "JavaScript", "HTML", "CSS"]}
       />
 
       {/* <ProjectCard 
