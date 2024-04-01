@@ -56,7 +56,8 @@
 <br />
 <br />
 
-### Design:
+### Development:
+[<img align="left" alt="Storybook" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/storybook/storybook-original.svg" style="padding-right:10px;" />](https://storybook.js.org)
 [<img align="left" alt="Figma" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" style="padding-right:10px;" />](https://www.figma.com)
 [<img align="left" alt="AdobeXD" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg" style="padding-right:10px;" />](https://www.adobe.com/pl/creativecloud/business/enterprise/xd.html)
 <br />
