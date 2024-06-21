@@ -6,6 +6,7 @@ import ToDo from '../assets/ToDoApp.png';
 import passwordGenerator from '../assets/passwordGenerator.png';
 import devfinder from '../assets/Devfinder.png';
 import meteorWeather from '../assets/MeteorWeather.png';
+import Yariga from '../assets/yariga.png';
 
 
 
@@ -17,5 +18,6 @@ export {
     ToDo,
     passwordGenerator,
     devfinder,
-    meteorWeather
+    meteorWeather,
+    Yariga
 }

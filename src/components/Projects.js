@@ -10,6 +10,7 @@ import {
   passwordGenerator,
   devfinder,
   meteorWeather,
+  Yariga
 } from "./imageImports";
 
 export function Projects() {
@@ -19,6 +20,15 @@ export function Projects() {
       id="projects"
     >
       <h2 className="w-100 pt-5 text-center">My projects</h2>
+      <ProjectCard
+        img={Yariga}
+        description="My first fullstack MERN project. Dashboard for real estate market."
+        project="Yariga Dashboard"
+        href={"https://greasy-yariga.netlify.app"}
+        repo={"https://github.com/Gr34sy/mern-refine-dashboard"}
+        stack={["Refine", "Express", "MongoDB", "React", "NodeJS"]}
+      />
+
       <ProjectCard
         img={ToDo}
         description="My most advanced project for now. ToDo list made with NextJS and MongoDB."
